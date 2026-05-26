@@ -1,5 +1,9 @@
 name: Update NSE Stocks to Google Sheet
 
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     # यह समय 14:45 UTC है, जिसका मतलब भारत में रात 8:15 PM है
